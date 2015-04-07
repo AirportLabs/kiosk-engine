@@ -13,14 +13,18 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/', function(req, res, next) {
-  request('http://www.mwaa.com/net/data/departures_reagan.json', function(error, response, body) {
-    if (!error && response.statusCode == 200) {
-      var json = JSON.parse(body);
-      res.json(json);
-    }
-  })
+app.get('/', function(request, response) {
+  response.send('Hello World');
 });
+
+// app.get('/', function(req, res, next) {
+//   request('http://www.mwaa.com/net/data/departures_reagan.json', function(error, response, body) {
+//     if (!error && response.statusCode == 200) {
+//       var json = JSON.parse(body);
+//       res.json(json);
+//     }
+//   })
+// });
 
 app.get('*', function(req, res) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -31,7 +35,7 @@ app.get('*', function(req, res) {
     else if (r_res.statusCode === 200) res.send(JSON.parse(body));
     else res.send(body);
   });
-}); 
+});
 
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'));
