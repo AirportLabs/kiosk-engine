@@ -1,0 +1,2249 @@
+[{
+  "Actual": "2015-03-18T11:30:00",
+  "Airline": "US Airways",
+  "Gate": "38",
+  "Location": "Hartford",
+  "Number": "4654",
+  "Scheduled": "2015-03-18T10:00:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:25:00",
+  "Airline": "US Airways",
+  "Gate": "44",
+  "Location": "Boston",
+  "Number": "2170",
+  "Scheduled": "2015-03-18T11:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:27:00",
+  "Airline": "US Airways",
+  "Gate": "37",
+  "Location": "Orlando",
+  "Number": "1872",
+  "Scheduled": "2015-03-18T11:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:30:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Charleston,SC",
+  "Number": "4116",
+  "Scheduled": "2015-03-18T11:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:22:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Pittsburgh",
+  "Number": "3952",
+  "Scheduled": "2015-03-18T11:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:30:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "9",
+  "Location": "Tampa",
+  "Number": "2249",
+  "Scheduled": "2015-03-18T11:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:24:00",
+  "Airline": "JetBlue",
+  "Gate": "30",
+  "Location": "Tampa",
+  "Number": "249",
+  "Scheduled": "2015-03-18T11:31:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:35:00",
+  "Airline": "Air Canada",
+  "Gate": "3",
+  "Location": "Montreal",
+  "Number": "7651",
+  "Scheduled": "2015-03-18T11:35:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:35:00",
+  "Airline": "Virgin America",
+  "Gate": "24",
+  "Location": "Dallas Love Field",
+  "Number": "715",
+  "Scheduled": "2015-03-18T11:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T11:27:00",
+  "Airline": "US Airways",
+  "Gate": "36",
+  "Location": "New Orleans",
+  "Number": "4615",
+  "Scheduled": "2015-03-18T11:35:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:43:00",
+  "Airline": "Delta",
+  "Gate": "15",
+  "Location": "New York-JFK",
+  "Number": "3705",
+  "Scheduled": "2015-03-18T11:43:00",
+  "Status": "Cancelled"
+}, {
+  "Actual": "2015-03-18T11:36:00",
+  "Airline": "United",
+  "Gate": "14",
+  "Location": "Chicago O Hare",
+  "Number": "3441",
+  "Scheduled": "2015-03-18T11:45:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:45:00",
+  "Airline": "Delta",
+  "Gate": "19",
+  "Location": "Minneapolis",
+  "Number": "1384",
+  "Scheduled": "2015-03-18T11:45:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:39:00",
+  "Airline": "US Airways",
+  "Gate": "39",
+  "Location": "Tampa",
+  "Number": "1846",
+  "Scheduled": "2015-03-18T11:45:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:37:00",
+  "Airline": "American",
+  "Gate": "33",
+  "Location": "Chicago O Hare",
+  "Number": "1075",
+  "Scheduled": "2015-03-18T11:45:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:50:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "4",
+  "Location": "Houston-HOU",
+  "Number": "36",
+  "Scheduled": "2015-03-18T11:50:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:36:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Philadelphia",
+  "Number": "3906",
+  "Scheduled": "2015-03-18T11:52:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:49:00",
+  "Airline": "US Airways",
+  "Gate": "40",
+  "Location": "Charlotte",
+  "Number": "2059",
+  "Scheduled": "2015-03-18T11:55:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:42:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Hartford",
+  "Number": "3836",
+  "Scheduled": "2015-03-18T11:55:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:59:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "17",
+  "Location": "Omaha",
+  "Number": "6016",
+  "Scheduled": "2015-03-18T11:59:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T11:49:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Raleigh\/Durham",
+  "Number": "4016",
+  "Scheduled": "2015-03-18T11:59:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "20",
+  "Location": "New York-LGA",
+  "Number": "2714",
+  "Scheduled": "2015-03-18T12:00:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:00:00",
+  "Airline": "Delta",
+  "Gate": "22",
+  "Location": "Atlanta",
+  "Number": "1539",
+  "Scheduled": "2015-03-18T12:00:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:00:00",
+  "Airline": "US Airways",
+  "Gate": "unknown",
+  "Location": "New York-LGA",
+  "Number": "2135",
+  "Scheduled": "2015-03-18T12:00:00",
+  "Status": "Cancelled"
+}, {
+  "Actual": "2015-03-18T12:00:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "8",
+  "Location": "Chicago-Midway",
+  "Number": "900",
+  "Scheduled": "2015-03-18T12:00:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:00:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "2",
+  "Location": "Nashville",
+  "Number": "2587",
+  "Scheduled": "2015-03-18T12:00:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T13:31:00",
+  "Airline": "Delta",
+  "Gate": "15",
+  "Location": "Savannah",
+  "Number": "4278",
+  "Scheduled": "2015-03-18T12:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T12:05:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "6",
+  "Location": "Atlanta",
+  "Number": "2702",
+  "Scheduled": "2015-03-18T12:05:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:05:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "5",
+  "Location": "St. Louis",
+  "Number": "3651",
+  "Scheduled": "2015-03-18T12:05:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:26:00",
+  "Airline": "United",
+  "Gate": "10",
+  "Location": "Houston-IAH",
+  "Number": "1020",
+  "Scheduled": "2015-03-18T12:15:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:05:00",
+  "Airline": "US Airways",
+  "Gate": "35",
+  "Location": "Burlington",
+  "Number": "4582",
+  "Scheduled": "2015-03-18T12:15:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:14:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Chattanooga",
+  "Number": "3730",
+  "Scheduled": "2015-03-18T12:20:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:18:00",
+  "Airline": "JetBlue",
+  "Gate": "28",
+  "Location": "Charleston,SC",
+  "Number": "843",
+  "Scheduled": "2015-03-18T12:23:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:26:00",
+  "Airline": "US Airways",
+  "Gate": "45",
+  "Location": "Boston",
+  "Number": "2142",
+  "Scheduled": "2015-03-18T12:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:23:00",
+  "Airline": "American",
+  "Gate": "27",
+  "Location": "Dallas-Ft. Worth",
+  "Number": "1688",
+  "Scheduled": "2015-03-18T12:31:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:35:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "9",
+  "Location": "Dallas Love Field",
+  "Number": "37",
+  "Scheduled": "2015-03-18T12:35:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:27:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Portland,ME",
+  "Number": "3764",
+  "Scheduled": "2015-03-18T12:39:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:40:00",
+  "Airline": "Delta",
+  "Gate": "21",
+  "Location": "Detroit",
+  "Number": "3528",
+  "Scheduled": "2015-03-18T12:40:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:40:00",
+  "Airline": "United",
+  "Gate": "11",
+  "Location": "Chicago O Hare",
+  "Number": "3534",
+  "Scheduled": "2015-03-18T12:45:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:38:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Charleston,SC",
+  "Number": "4065",
+  "Scheduled": "2015-03-18T12:47:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:39:00",
+  "Airline": "US Airways",
+  "Gate": "36",
+  "Location": "Columbus",
+  "Number": "4704",
+  "Scheduled": "2015-03-18T12:50:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:48:00",
+  "Airline": "American",
+  "Gate": "29",
+  "Location": "Miami",
+  "Number": "1299",
+  "Scheduled": "2015-03-18T12:50:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:35:00",
+  "Airline": "JetBlue",
+  "Gate": "26",
+  "Location": "Boston",
+  "Number": "490",
+  "Scheduled": "2015-03-18T12:50:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:52:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Syracuse",
+  "Number": "3960",
+  "Scheduled": "2015-03-18T12:51:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:51:00",
+  "Airline": "American",
+  "Gate": "35X",
+  "Location": "New York-JFK",
+  "Number": "3225",
+  "Scheduled": "2015-03-18T12:51:00",
+  "Status": "Cancelled"
+}, {
+  "Actual": "2015-03-18T12:55:00",
+  "Airline": "Air Canada",
+  "Gate": "3",
+  "Location": "Toronto",
+  "Number": "7355",
+  "Scheduled": "2015-03-18T12:55:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:59:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "18",
+  "Location": "New York-LGA",
+  "Number": "2716",
+  "Scheduled": "2015-03-18T12:59:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T13:01:00",
+  "Airline": "JetBlue",
+  "Gate": "32",
+  "Location": "Nassau",
+  "Number": "29",
+  "Scheduled": "2015-03-18T13:00:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T12:57:00",
+  "Airline": "US Airways",
+  "Gate": "42",
+  "Location": "New York-LGA",
+  "Number": "2143",
+  "Scheduled": "2015-03-18T13:00:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T13:17:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Knoxville",
+  "Number": "5064",
+  "Scheduled": "2015-03-18T13:15:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T13:24:00",
+  "Airline": "JetBlue",
+  "Gate": "30",
+  "Location": "Ft Lauderdale",
+  "Number": "1479",
+  "Scheduled": "2015-03-18T13:24:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:26:00",
+  "Airline": "Frontier",
+  "Gate": "7",
+  "Location": "Denver",
+  "Number": "723",
+  "Scheduled": "2015-03-18T13:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T13:22:00",
+  "Airline": "US Airways",
+  "Gate": "44",
+  "Location": "Boston",
+  "Number": "2119",
+  "Scheduled": "2015-03-18T13:30:00",
+  "Status": "Departed"
+}, {
+  "Actual": "2015-03-18T13:30:00",
+  "Airline": "Delta",
+  "Gate": "19",
+  "Location": "Atlanta",
+  "Number": "151",
+  "Scheduled": "2015-03-18T13:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:35:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "White Plains",
+  "Number": "4018",
+  "Scheduled": "2015-03-18T13:35:00",
+  "Status": "Closed"
+}, {
+  "Actual": "2015-03-18T13:40:00",
+  "Airline": "Delta",
+  "Gate": "17",
+  "Location": "Cincinnati",
+  "Number": "3649",
+  "Scheduled": "2015-03-18T13:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:45:00",
+  "Airline": "United",
+  "Gate": "14",
+  "Location": "Chicago O Hare",
+  "Number": "6525",
+  "Scheduled": "2015-03-18T13:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:45:00",
+  "Airline": "US Airways",
+  "Gate": "37",
+  "Location": "Charlotte",
+  "Number": "1765",
+  "Scheduled": "2015-03-18T13:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:45:00",
+  "Airline": "US Airways",
+  "Gate": "39",
+  "Location": "Greensboro",
+  "Number": "4556",
+  "Scheduled": "2015-03-18T13:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:45:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Cincinnati",
+  "Number": "4047",
+  "Scheduled": "2015-03-18T13:45:00",
+  "Status": "Boarding"
+}, {
+  "Actual": "2015-03-18T13:45:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Philadelphia",
+  "Number": "5046",
+  "Scheduled": "2015-03-18T13:45:00",
+  "Status": "Boarding"
+}, {
+  "Actual": "2015-03-18T13:45:00",
+  "Airline": "US Airways",
+  "Gate": "35",
+  "Location": "Raleigh\/Durham",
+  "Number": "4619",
+  "Scheduled": "2015-03-18T13:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:48:00",
+  "Airline": "American",
+  "Gate": "27",
+  "Location": "Chicago O Hare",
+  "Number": "1452",
+  "Scheduled": "2015-03-18T13:48:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:49:00",
+  "Airline": "United",
+  "Gate": "16",
+  "Location": "Houston-IAH",
+  "Number": "282",
+  "Scheduled": "2015-03-18T13:49:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:50:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Columbia",
+  "Number": "3921",
+  "Scheduled": "2015-03-18T13:50:00",
+  "Status": "Boarding"
+}, {
+  "Actual": "2015-03-18T13:50:00",
+  "Airline": "US Airways",
+  "Gate": "38",
+  "Location": "Nashville",
+  "Number": "4534",
+  "Scheduled": "2015-03-18T13:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:55:00",
+  "Airline": "US Airways",
+  "Gate": "31",
+  "Location": "West Palm Beach",
+  "Number": "4460",
+  "Scheduled": "2015-03-18T13:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:55:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Huntsville",
+  "Number": "4033",
+  "Scheduled": "2015-03-18T13:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "4",
+  "Location": "Atlanta",
+  "Number": "1159",
+  "Scheduled": "2015-03-18T13:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:59:00",
+  "Airline": "US Airways",
+  "Gate": "unknown",
+  "Location": "New York-LGA",
+  "Number": "2157",
+  "Scheduled": "2015-03-18T13:59:00",
+  "Status": "Cancelled"
+}, {
+  "Actual": "2015-03-18T13:59:00",
+  "Airline": "US Airways",
+  "Gate": "25",
+  "Location": "Indianapolis",
+  "Number": "4508",
+  "Scheduled": "2015-03-18T13:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:15:00",
+  "Airline": "US Airways",
+  "Gate": "25",
+  "Location": "Tampa",
+  "Number": "4462",
+  "Scheduled": "2015-03-18T13:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:59:00",
+  "Airline": "US Airways",
+  "Gate": "36",
+  "Location": "Des Moines",
+  "Number": "4473",
+  "Scheduled": "2015-03-18T13:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:59:00",
+  "Airline": "American",
+  "Gate": "35X",
+  "Location": "St. Louis",
+  "Number": "4369",
+  "Scheduled": "2015-03-18T13:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T13:59:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Hartford",
+  "Number": "3826",
+  "Scheduled": "2015-03-18T13:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:00:00",
+  "Airline": "JetBlue",
+  "Gate": "28",
+  "Location": "Boston",
+  "Number": "590",
+  "Scheduled": "2015-03-18T14:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "20",
+  "Location": "New York-LGA",
+  "Number": "2718",
+  "Scheduled": "2015-03-18T14:00:00",
+  "Status": "Cancelled"
+}, {
+  "Actual": "2015-03-18T14:00:00",
+  "Airline": "US Airways",
+  "Gate": "40",
+  "Location": "Jacksonville",
+  "Number": "4563",
+  "Scheduled": "2015-03-18T14:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:05:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "8",
+  "Location": "Houston-HOU",
+  "Number": "320",
+  "Scheduled": "2015-03-18T14:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:10:00",
+  "Airline": "US Airways",
+  "Gate": "34",
+  "Location": "Kansas City",
+  "Number": "4472",
+  "Scheduled": "2015-03-18T14:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:15:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "2",
+  "Location": "Chicago-Midway",
+  "Number": "1001",
+  "Scheduled": "2015-03-18T14:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:30:00",
+  "Airline": "US Airways",
+  "Gate": "45",
+  "Location": "Boston",
+  "Number": "2149",
+  "Scheduled": "2015-03-18T14:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:30:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "9",
+  "Location": "New Orleans",
+  "Number": "148",
+  "Scheduled": "2015-03-18T14:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:32:00",
+  "Airline": "JetBlue",
+  "Gate": "26",
+  "Location": "Ft. Myers",
+  "Number": "481",
+  "Scheduled": "2015-03-18T14:32:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:36:00",
+  "Airline": "United",
+  "Gate": "10",
+  "Location": "Cleveland",
+  "Number": "3271",
+  "Scheduled": "2015-03-18T14:36:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:40:00",
+  "Airline": "American",
+  "Gate": "29",
+  "Location": "Miami",
+  "Number": "1179",
+  "Scheduled": "2015-03-18T14:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:45:00",
+  "Airline": "United",
+  "Gate": "12",
+  "Location": "Chicago O Hare",
+  "Number": "3455",
+  "Scheduled": "2015-03-18T14:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:45:00",
+  "Airline": "Delta",
+  "Gate": "21",
+  "Location": "Minneapolis",
+  "Number": "5699",
+  "Scheduled": "2015-03-18T14:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:50:00",
+  "Airline": "JetBlue",
+  "Gate": "32",
+  "Location": "Orlando",
+  "Number": "823",
+  "Scheduled": "2015-03-18T14:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:55:00",
+  "Airline": "US Airways",
+  "Gate": "42",
+  "Location": "Ft Lauderdale",
+  "Number": "1974",
+  "Scheduled": "2015-03-18T14:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:55:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Louisville",
+  "Number": "5011",
+  "Scheduled": "2015-03-18T14:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:56:00",
+  "Airline": "United",
+  "Gate": "11",
+  "Location": "Newark",
+  "Number": "4636",
+  "Scheduled": "2015-03-18T14:56:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:59:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Toronto",
+  "Number": "3938",
+  "Scheduled": "2015-03-18T14:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:59:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Portland,ME",
+  "Number": "3854",
+  "Scheduled": "2015-03-18T14:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:59:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Indianapolis",
+  "Number": "3774",
+  "Scheduled": "2015-03-18T14:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:59:00",
+  "Airline": "American",
+  "Gate": "27",
+  "Location": "Dallas-Ft. Worth",
+  "Number": "1404",
+  "Scheduled": "2015-03-18T14:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T14:59:00",
+  "Airline": "US Airways",
+  "Gate": "23",
+  "Location": "Burlington",
+  "Number": "4518",
+  "Scheduled": "2015-03-18T14:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:00:00",
+  "Airline": "Delta",
+  "Gate": "15",
+  "Location": "Detroit",
+  "Number": "3499",
+  "Scheduled": "2015-03-18T15:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "20",
+  "Location": "New York-LGA",
+  "Number": "2720",
+  "Scheduled": "2015-03-18T15:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:00:00",
+  "Airline": "US Airways",
+  "Gate": "36",
+  "Location": "New York-LGA",
+  "Number": "2164",
+  "Scheduled": "2015-03-18T15:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:00:00",
+  "Airline": "Delta",
+  "Gate": "18",
+  "Location": "Atlanta",
+  "Number": "1839",
+  "Scheduled": "2015-03-18T15:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:05:00",
+  "Airline": "US Airways",
+  "Gate": "44",
+  "Location": "Orlando",
+  "Number": "1874",
+  "Scheduled": "2015-03-18T15:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:05:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Greenville",
+  "Number": "3947",
+  "Scheduled": "2015-03-18T15:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:10:00",
+  "Airline": "US Airways",
+  "Gate": "31",
+  "Location": "Manchester",
+  "Number": "4656",
+  "Scheduled": "2015-03-18T15:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:10:00",
+  "Airline": "American",
+  "Gate": "33",
+  "Location": "Chicago O Hare",
+  "Number": "322",
+  "Scheduled": "2015-03-18T15:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:11:00",
+  "Airline": "American",
+  "Gate": "35X",
+  "Location": "New York-JFK",
+  "Number": "3378",
+  "Scheduled": "2015-03-18T15:11:00",
+  "Status": "Cancelled"
+}, {
+  "Actual": "2015-03-18T15:15:00",
+  "Airline": "United",
+  "Gate": "14",
+  "Location": "Houston-IAH",
+  "Number": "1594",
+  "Scheduled": "2015-03-18T15:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:17:00",
+  "Airline": "US Airways",
+  "Gate": "38",
+  "Location": "Albany",
+  "Number": "4539",
+  "Scheduled": "2015-03-18T15:17:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:20:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Syracuse",
+  "Number": "3883",
+  "Scheduled": "2015-03-18T15:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:20:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Nashville",
+  "Number": "4072",
+  "Scheduled": "2015-03-18T15:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:20:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "5",
+  "Location": "Nashville",
+  "Number": "880",
+  "Scheduled": "2015-03-18T15:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:20:00",
+  "Airline": "US Airways",
+  "Gate": "34",
+  "Location": "Rochester,NY",
+  "Number": "4565",
+  "Scheduled": "2015-03-18T15:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:25:00",
+  "Airline": "US Airways",
+  "Gate": "35",
+  "Location": "Providence",
+  "Number": "4578",
+  "Scheduled": "2015-03-18T15:25:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:30:00",
+  "Airline": "US Airways",
+  "Gate": "39",
+  "Location": "Ft. Myers",
+  "Number": "1777",
+  "Scheduled": "2015-03-18T15:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:30:00",
+  "Airline": "US Airways",
+  "Gate": "40",
+  "Location": "Charlotte",
+  "Number": "2041",
+  "Scheduled": "2015-03-18T15:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:30:00",
+  "Airline": "US Airways",
+  "Gate": "45",
+  "Location": "Boston",
+  "Number": "2124",
+  "Scheduled": "2015-03-18T15:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:30:00",
+  "Airline": "US Airways",
+  "Gate": "25",
+  "Location": "Columbus",
+  "Number": "4485",
+  "Scheduled": "2015-03-18T15:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:35:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "4",
+  "Location": "Chicago-Midway",
+  "Number": "291",
+  "Scheduled": "2015-03-18T15:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:35:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "8",
+  "Location": "Kansas City",
+  "Number": "4809",
+  "Scheduled": "2015-03-18T15:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:36:00",
+  "Airline": "JetBlue",
+  "Gate": "30",
+  "Location": "Boston",
+  "Number": "690",
+  "Scheduled": "2015-03-18T15:36:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:40:00",
+  "Airline": "US Airways",
+  "Gate": "42",
+  "Location": "Buffalo",
+  "Number": "4502",
+  "Scheduled": "2015-03-18T15:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:41:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Pittsburgh",
+  "Number": "3897",
+  "Scheduled": "2015-03-18T15:41:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:42:00",
+  "Airline": "JetBlue",
+  "Gate": "28",
+  "Location": "Jacksonville",
+  "Number": "715",
+  "Scheduled": "2015-03-18T15:42:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:45:00",
+  "Airline": "United",
+  "Gate": "16",
+  "Location": "Chicago O Hare",
+  "Number": "6280",
+  "Scheduled": "2015-03-18T15:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:50:00",
+  "Airline": "US Airways",
+  "Gate": "37",
+  "Location": "New Orleans",
+  "Number": "4594",
+  "Scheduled": "2015-03-18T15:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:52:00",
+  "Airline": "American",
+  "Gate": "29",
+  "Location": "Miami",
+  "Number": "1658",
+  "Scheduled": "2015-03-18T15:52:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "2",
+  "Location": "Milwaukee",
+  "Number": "2582",
+  "Scheduled": "2015-03-18T15:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T15:59:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Memphis",
+  "Number": "3941",
+  "Scheduled": "2015-03-18T15:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "20",
+  "Location": "New York-LGA",
+  "Number": "2722",
+  "Scheduled": "2015-03-18T16:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:00:00",
+  "Airline": "Delta",
+  "Gate": "22",
+  "Location": "Atlanta",
+  "Number": "1939",
+  "Scheduled": "2015-03-18T16:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:00:00",
+  "Airline": "US Airways",
+  "Gate": "43",
+  "Location": "New York-LGA",
+  "Number": "2145",
+  "Scheduled": "2015-03-18T16:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:00:00",
+  "Airline": "US Airways",
+  "Gate": "44",
+  "Location": "West Palm Beach",
+  "Number": "1741",
+  "Scheduled": "2015-03-18T16:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:00:00",
+  "Airline": "American",
+  "Gate": "27",
+  "Location": "Dallas-Ft. Worth",
+  "Number": "35",
+  "Scheduled": "2015-03-18T16:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:04:00",
+  "Airline": "United",
+  "Gate": "12",
+  "Location": "Denver",
+  "Number": "247",
+  "Scheduled": "2015-03-18T16:04:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:15:00",
+  "Airline": "American",
+  "Gate": "33",
+  "Location": "Chicago O Hare",
+  "Number": "2361",
+  "Scheduled": "2015-03-18T16:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:25:00",
+  "Airline": "American",
+  "Gate": "35X",
+  "Location": "St. Louis",
+  "Number": "4356",
+  "Scheduled": "2015-03-18T16:25:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:30:00",
+  "Airline": "US Airways",
+  "Gate": "36",
+  "Location": "Boston",
+  "Number": "2120",
+  "Scheduled": "2015-03-18T16:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:30:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "9",
+  "Location": "Chicago-Midway",
+  "Number": "63",
+  "Scheduled": "2015-03-18T16:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:35:00",
+  "Airline": "Air Canada",
+  "Gate": "3",
+  "Location": "Montreal",
+  "Number": "7655",
+  "Scheduled": "2015-03-18T16:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:37:00",
+  "Airline": "United",
+  "Gate": "11",
+  "Location": "Newark",
+  "Number": "3904",
+  "Scheduled": "2015-03-18T16:37:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:40:00",
+  "Airline": "Delta",
+  "Gate": "19",
+  "Location": "Salt Lake City",
+  "Number": "832",
+  "Scheduled": "2015-03-18T16:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:45:00",
+  "Airline": "United",
+  "Gate": "14",
+  "Location": "Chicago O Hare",
+  "Number": "1141",
+  "Scheduled": "2015-03-18T16:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:50:00",
+  "Airline": "Delta",
+  "Gate": "17",
+  "Location": "Minneapolis",
+  "Number": "2482",
+  "Scheduled": "2015-03-18T16:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:50:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "5",
+  "Location": "Dallas Love Field",
+  "Number": "2428",
+  "Scheduled": "2015-03-18T16:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "4",
+  "Location": "Austin",
+  "Number": "409",
+  "Scheduled": "2015-03-18T16:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "8",
+  "Location": "Atlanta",
+  "Number": "765",
+  "Scheduled": "2015-03-18T16:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T16:58:00",
+  "Airline": "JetBlue",
+  "Gate": "26",
+  "Location": "Boston",
+  "Number": "790",
+  "Scheduled": "2015-03-18T16:58:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:00:00",
+  "Airline": "Delta",
+  "Gate": "21",
+  "Location": "Atlanta",
+  "Number": "2039",
+  "Scheduled": "2015-03-18T17:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "20",
+  "Location": "New York-LGA",
+  "Number": "2724",
+  "Scheduled": "2015-03-18T17:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:00:00",
+  "Airline": "US Airways",
+  "Gate": "40",
+  "Location": "Phoenix",
+  "Number": "589",
+  "Scheduled": "2015-03-18T17:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:00:00",
+  "Airline": "US Airways",
+  "Gate": "45",
+  "Location": "New York-LGA",
+  "Number": "2153",
+  "Scheduled": "2015-03-18T17:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:00:00",
+  "Airline": "US Airways",
+  "Gate": "25",
+  "Location": "Huntsville",
+  "Number": "4538",
+  "Scheduled": "2015-03-18T17:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:00:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Birmingham",
+  "Number": "4035",
+  "Scheduled": "2015-03-18T17:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:00:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "White Plains",
+  "Number": "3856",
+  "Scheduled": "2015-03-18T17:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:05:00",
+  "Airline": "US Airways",
+  "Gate": "35",
+  "Location": "Indianapolis",
+  "Number": "4562",
+  "Scheduled": "2015-03-18T17:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:10:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Providence",
+  "Number": "4039",
+  "Scheduled": "2015-03-18T17:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:10:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Norfolk",
+  "Number": "4826",
+  "Scheduled": "2015-03-18T17:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:15:00",
+  "Airline": "Virgin America",
+  "Gate": "24",
+  "Location": "San Francisco",
+  "Number": "2",
+  "Scheduled": "2015-03-18T17:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:15:00",
+  "Airline": "Alaska",
+  "Gate": "18",
+  "Location": "Portland,OR",
+  "Number": "771",
+  "Scheduled": "2015-03-18T17:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:15:00",
+  "Airline": "US Airways",
+  "Gate": "37",
+  "Location": "Ft Lauderdale",
+  "Number": "1947",
+  "Scheduled": "2015-03-18T17:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:15:00",
+  "Airline": "US Airways",
+  "Gate": "39",
+  "Location": "Tampa",
+  "Number": "1959",
+  "Scheduled": "2015-03-18T17:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:15:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Cincinnati",
+  "Number": "3859",
+  "Scheduled": "2015-03-18T17:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:15:00",
+  "Airline": "American",
+  "Gate": "27",
+  "Location": "Los Angeles",
+  "Number": "245",
+  "Scheduled": "2015-03-18T17:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:20:00",
+  "Airline": "US Airways",
+  "Gate": "38",
+  "Location": "Charlotte",
+  "Number": "2006",
+  "Scheduled": "2015-03-18T17:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:25:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Raleigh\/Durham",
+  "Number": "4046",
+  "Scheduled": "2015-03-18T17:25:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:29:00",
+  "Airline": "United",
+  "Gate": "10",
+  "Location": "Cleveland",
+  "Number": "4207",
+  "Scheduled": "2015-03-18T17:29:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:29:00",
+  "Airline": "US Airways",
+  "Gate": "23",
+  "Location": "Detroit",
+  "Number": "4527",
+  "Scheduled": "2015-03-18T17:29:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:30:00",
+  "Airline": "Delta",
+  "Gate": "22",
+  "Location": "Detroit",
+  "Number": "2045",
+  "Scheduled": "2015-03-18T17:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:30:00",
+  "Airline": "US Airways",
+  "Gate": "43",
+  "Location": "Boston",
+  "Number": "2116",
+  "Scheduled": "2015-03-18T17:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:30:00",
+  "Airline": "US Airways",
+  "Gate": "34",
+  "Location": "Charleston,SC",
+  "Number": "4689",
+  "Scheduled": "2015-03-18T17:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:35:00",
+  "Airline": "Frontier",
+  "Gate": "7",
+  "Location": "Denver",
+  "Number": "719",
+  "Scheduled": "2015-03-18T17:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:35:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Dayton",
+  "Number": "5166",
+  "Scheduled": "2015-03-18T17:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:38:00",
+  "Airline": "United",
+  "Gate": "12",
+  "Location": "Houston-IAH",
+  "Number": "1143",
+  "Scheduled": "2015-03-18T17:38:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:40:00",
+  "Airline": "JetBlue",
+  "Gate": "32",
+  "Location": "Charleston,SC",
+  "Number": "1243",
+  "Scheduled": "2015-03-18T17:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:35:00",
+  "Airline": "Delta",
+  "Gate": "15",
+  "Location": "Cincinnati",
+  "Number": "3830",
+  "Scheduled": "2015-03-18T17:44:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:45:00",
+  "Airline": "US Airways",
+  "Gate": "42",
+  "Location": "Orlando",
+  "Number": "665",
+  "Scheduled": "2015-03-18T17:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:45:00",
+  "Airline": "American",
+  "Gate": "33",
+  "Location": "Dallas-Ft. Worth",
+  "Number": "134",
+  "Scheduled": "2015-03-18T17:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:46:00",
+  "Airline": "United",
+  "Gate": "11",
+  "Location": "Chicago O Hare",
+  "Number": "627",
+  "Scheduled": "2015-03-18T17:46:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:50:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "2",
+  "Location": "Chicago-Midway",
+  "Number": "794",
+  "Scheduled": "2015-03-18T17:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:58:00",
+  "Airline": "JetBlue",
+  "Gate": "30",
+  "Location": "Boston",
+  "Number": "890",
+  "Scheduled": "2015-03-18T17:58:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T17:59:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Hartford",
+  "Number": "4026",
+  "Scheduled": "2015-03-18T17:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:00:00",
+  "Airline": "Delta",
+  "Gate": "17",
+  "Location": "New York-JFK",
+  "Number": "3694",
+  "Scheduled": "2015-03-18T18:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:00:00",
+  "Airline": "Delta",
+  "Gate": "19",
+  "Location": "Atlanta",
+  "Number": "2139",
+  "Scheduled": "2015-03-18T18:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "20",
+  "Location": "New York-LGA",
+  "Number": "2726",
+  "Scheduled": "2015-03-18T18:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:00:00",
+  "Airline": "US Airways",
+  "Gate": "41",
+  "Location": "New York-LGA",
+  "Number": "2167",
+  "Scheduled": "2015-03-18T18:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:00:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "9",
+  "Location": "Indianapolis",
+  "Number": "371",
+  "Scheduled": "2015-03-18T18:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:05:00",
+  "Airline": "American",
+  "Gate": "29",
+  "Location": "Miami",
+  "Number": "238",
+  "Scheduled": "2015-03-18T18:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:05:00",
+  "Airline": "American",
+  "Gate": "27",
+  "Location": "New York-JFK",
+  "Number": "1029",
+  "Scheduled": "2015-03-18T18:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:15:00",
+  "Airline": "Air Canada",
+  "Gate": "3",
+  "Location": "Toronto",
+  "Number": "7359",
+  "Scheduled": "2015-03-18T18:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:15:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Philadelphia",
+  "Number": "4019",
+  "Scheduled": "2015-03-18T18:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:28:00",
+  "Airline": "United",
+  "Gate": "10",
+  "Location": "Newark",
+  "Number": "4372",
+  "Scheduled": "2015-03-18T18:28:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:30:00",
+  "Airline": "US Airways",
+  "Gate": "44",
+  "Location": "Boston",
+  "Number": "2134",
+  "Scheduled": "2015-03-18T18:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:00:00",
+  "Airline": "Virgin America",
+  "Gate": "24",
+  "Location": "Dallas Love Field",
+  "Number": "737",
+  "Scheduled": "2015-03-18T18:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:45:00",
+  "Airline": "Alaska",
+  "Gate": "18",
+  "Location": "Seattle",
+  "Number": "3",
+  "Scheduled": "2015-03-18T18:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:45:00",
+  "Airline": "US Airways",
+  "Gate": "34",
+  "Location": "Indianapolis",
+  "Number": "4577",
+  "Scheduled": "2015-03-18T18:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:46:00",
+  "Airline": "United",
+  "Gate": "14",
+  "Location": "Chicago O Hare",
+  "Number": "5615",
+  "Scheduled": "2015-03-18T18:46:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:54:00",
+  "Airline": "United",
+  "Gate": "12",
+  "Location": "Cleveland",
+  "Number": "4272",
+  "Scheduled": "2015-03-18T18:54:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:55:00",
+  "Airline": "American",
+  "Gate": "33",
+  "Location": "Chicago O Hare",
+  "Number": "2340",
+  "Scheduled": "2015-03-18T18:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "5",
+  "Location": "St. Louis",
+  "Number": "308",
+  "Scheduled": "2015-03-18T18:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "8",
+  "Location": "Tampa",
+  "Number": "886",
+  "Scheduled": "2015-03-18T18:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T18:59:00",
+  "Airline": "JetBlue",
+  "Gate": "28",
+  "Location": "Ft Lauderdale",
+  "Number": "1579",
+  "Scheduled": "2015-03-18T18:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "20",
+  "Location": "New York-LGA",
+  "Number": "2728",
+  "Scheduled": "2015-03-18T19:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:00:00",
+  "Airline": "Delta",
+  "Gate": "21",
+  "Location": "Minneapolis",
+  "Number": "1394",
+  "Scheduled": "2015-03-18T19:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:00:00",
+  "Airline": "US Airways",
+  "Gate": "43",
+  "Location": "New York-LGA",
+  "Number": "2174",
+  "Scheduled": "2015-03-18T19:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:00:00",
+  "Airline": "American",
+  "Gate": "29",
+  "Location": "Dallas-Ft. Worth",
+  "Number": "2237",
+  "Scheduled": "2015-03-18T19:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:00:00",
+  "Airline": "Delta",
+  "Gate": "15",
+  "Location": "Atlanta",
+  "Number": "2239",
+  "Scheduled": "2015-03-18T19:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:25:00",
+  "Airline": "US Airways",
+  "Gate": "23",
+  "Location": "Raleigh\/Durham",
+  "Number": "4542",
+  "Scheduled": "2015-03-18T19:25:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:25:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "4",
+  "Location": "Milwaukee",
+  "Number": "817",
+  "Scheduled": "2015-03-18T19:25:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:28:00",
+  "Airline": "United",
+  "Gate": "16",
+  "Location": "Houston-IAH",
+  "Number": "1191",
+  "Scheduled": "2015-03-18T19:28:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:29:00",
+  "Airline": "Delta",
+  "Gate": "19",
+  "Location": "Detroit",
+  "Number": "858",
+  "Scheduled": "2015-03-18T19:29:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:30:00",
+  "Airline": "US Airways",
+  "Gate": "45",
+  "Location": "Boston",
+  "Number": "2140",
+  "Scheduled": "2015-03-18T19:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:30:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Huntsville",
+  "Number": "3767",
+  "Scheduled": "2015-03-18T19:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:30:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Jackson,MS",
+  "Number": "5163",
+  "Scheduled": "2015-03-18T19:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:30:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "9",
+  "Location": "Chicago-Midway",
+  "Number": "1625",
+  "Scheduled": "2015-03-18T19:30:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:35:00",
+  "Airline": "US Airways",
+  "Gate": "39",
+  "Location": "Orlando",
+  "Number": "1878",
+  "Scheduled": "2015-03-18T19:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:35:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Dayton",
+  "Number": "4999",
+  "Scheduled": "2015-03-18T19:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:35:00",
+  "Airline": "American",
+  "Gate": "35X",
+  "Location": "New York-JFK",
+  "Number": "3365",
+  "Scheduled": "2015-03-18T19:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:35:00",
+  "Airline": "US Airways",
+  "Gate": "25",
+  "Location": "Kansas City",
+  "Number": "4456",
+  "Scheduled": "2015-03-18T19:35:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:40:00",
+  "Airline": "JetBlue",
+  "Gate": "26",
+  "Location": "Tampa",
+  "Number": "749",
+  "Scheduled": "2015-03-18T19:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:40:00",
+  "Airline": "US Airways",
+  "Gate": "41",
+  "Location": "Tampa",
+  "Number": "1761",
+  "Scheduled": "2015-03-18T19:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:40:00",
+  "Airline": "US Airways",
+  "Gate": "40",
+  "Location": "Columbus",
+  "Number": "4543",
+  "Scheduled": "2015-03-18T19:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:40:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Louisville",
+  "Number": "3983",
+  "Scheduled": "2015-03-18T19:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:45:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Columbia",
+  "Number": "3935",
+  "Scheduled": "2015-03-18T19:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:45:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Nashville",
+  "Number": "3823",
+  "Scheduled": "2015-03-18T19:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:46:00",
+  "Airline": "United",
+  "Gate": "11",
+  "Location": "Chicago O Hare",
+  "Number": "3508",
+  "Scheduled": "2015-03-18T19:46:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:50:00",
+  "Airline": "US Airways",
+  "Gate": "34",
+  "Location": "Jacksonville",
+  "Number": "4569",
+  "Scheduled": "2015-03-18T19:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:50:00",
+  "Airline": "US Airways",
+  "Gate": "42",
+  "Location": "New Orleans",
+  "Number": "4469",
+  "Scheduled": "2015-03-18T19:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:50:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Charleston,WV",
+  "Number": "4821",
+  "Scheduled": "2015-03-18T19:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:50:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "5",
+  "Location": "Houston-HOU",
+  "Number": "748",
+  "Scheduled": "2015-03-18T19:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T19:59:00",
+  "Airline": "American",
+  "Gate": "27",
+  "Location": "Miami",
+  "Number": "2206",
+  "Scheduled": "2015-03-18T19:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "Air Canada",
+  "Gate": "3",
+  "Location": "Ottawa",
+  "Number": "7665",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "JetBlue",
+  "Gate": "32",
+  "Location": "Hartford",
+  "Number": "1098",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "Delta Shuttle",
+  "Gate": "22",
+  "Location": "Madison",
+  "Number": "5967",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "Delta",
+  "Gate": "18",
+  "Location": "Atlanta",
+  "Number": "2339",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "US Airways",
+  "Gate": "37",
+  "Location": "Memphis",
+  "Number": "4457",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "US Airways",
+  "Gate": "38",
+  "Location": "Charlotte",
+  "Number": "1928",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "US Airways",
+  "Gate": "43",
+  "Location": "New York-LGA",
+  "Number": "2155",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Greenville",
+  "Number": "3977",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:00:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Birmingham",
+  "Number": "4003",
+  "Scheduled": "2015-03-18T20:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:05:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Norfolk",
+  "Number": "3875",
+  "Scheduled": "2015-03-18T20:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:05:00",
+  "Airline": "US Airways",
+  "Gate": "unknown",
+  "Location": "Knoxville",
+  "Number": "5143",
+  "Scheduled": "2015-03-18T20:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:05:00",
+  "Airline": "US Airways",
+  "Gate": "36",
+  "Location": "Pittsburgh",
+  "Number": "4464",
+  "Scheduled": "2015-03-18T20:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:06:00",
+  "Airline": "United",
+  "Gate": "10",
+  "Location": "Newark",
+  "Number": "4373",
+  "Scheduled": "2015-03-18T20:06:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:15:00",
+  "Airline": "JetBlue",
+  "Gate": "30",
+  "Location": "Orlando",
+  "Number": "2323",
+  "Scheduled": "2015-03-18T20:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:20:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Greensboro",
+  "Number": "3797",
+  "Scheduled": "2015-03-18T20:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:25:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Akron\/Canton",
+  "Number": "5150",
+  "Scheduled": "2015-03-18T20:25:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:40:00",
+  "Airline": "JetBlue",
+  "Gate": "28",
+  "Location": "Boston",
+  "Number": "1090",
+  "Scheduled": "2015-03-18T20:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:45:00",
+  "Airline": "US Airways",
+  "Gate": "35",
+  "Location": "Charleston,SC",
+  "Number": "4558",
+  "Scheduled": "2015-03-18T20:45:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:50:00",
+  "Airline": "American",
+  "Gate": "29",
+  "Location": "Chicago O Hare",
+  "Number": "2267",
+  "Scheduled": "2015-03-18T20:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:50:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "8",
+  "Location": "Atlanta",
+  "Number": "168",
+  "Scheduled": "2015-03-18T20:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:50:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "4",
+  "Location": "Dallas Love Field",
+  "Number": "921",
+  "Scheduled": "2015-03-18T20:50:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "5",
+  "Location": "Akron\/Canton",
+  "Number": "224",
+  "Scheduled": "2015-03-18T20:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:55:00",
+  "Airline": "Southwest Airlines",
+  "Gate": "9",
+  "Location": "Chicago-Midway",
+  "Number": "2574",
+  "Scheduled": "2015-03-18T20:55:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T20:59:00",
+  "Airline": "American",
+  "Gate": "33",
+  "Location": "Miami",
+  "Number": "1295",
+  "Scheduled": "2015-03-18T20:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T21:00:00",
+  "Airline": "US Airways",
+  "Gate": "44",
+  "Location": "Boston",
+  "Number": "2150",
+  "Scheduled": "2015-03-18T21:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T21:00:00",
+  "Airline": "US Airways",
+  "Gate": "40",
+  "Location": "Orlando",
+  "Number": "4484",
+  "Scheduled": "2015-03-18T21:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T21:40:00",
+  "Airline": "United",
+  "Gate": "10",
+  "Location": "Newark",
+  "Number": "4748",
+  "Scheduled": "2015-03-18T21:40:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:00:00",
+  "Airline": "Sun Country Airlines",
+  "Gate": "1",
+  "Location": "Minneapolis",
+  "Number": "236",
+  "Scheduled": "2015-03-18T22:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:00:00",
+  "Airline": "American",
+  "Gate": "35X",
+  "Location": "Columbus",
+  "Number": "4232",
+  "Scheduled": "2015-03-18T22:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:00:00",
+  "Airline": "US Airways",
+  "Gate": "23",
+  "Location": "Indianapolis",
+  "Number": "4481",
+  "Scheduled": "2015-03-18T22:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:00:00",
+  "Airline": "US Airways",
+  "Gate": "41",
+  "Location": "New York-LGA",
+  "Number": "2117",
+  "Scheduled": "2015-03-18T22:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:00:00",
+  "Airline": "US Airways",
+  "Gate": "43",
+  "Location": "Boston",
+  "Number": "2138",
+  "Scheduled": "2015-03-18T22:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:00:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Philadelphia",
+  "Number": "3840",
+  "Scheduled": "2015-03-18T22:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:00:00",
+  "Airline": "US Airways",
+  "Gate": "42",
+  "Location": "Pittsburgh",
+  "Number": "4598",
+  "Scheduled": "2015-03-18T22:00:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:05:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Nashville",
+  "Number": "3903",
+  "Scheduled": "2015-03-18T22:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:05:00",
+  "Airline": "US Airways",
+  "Gate": "37",
+  "Location": "Providence",
+  "Number": "4536",
+  "Scheduled": "2015-03-18T22:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:05:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "White Plains",
+  "Number": "5167",
+  "Scheduled": "2015-03-18T22:05:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:10:00",
+  "Airline": "US Airways",
+  "Gate": "34",
+  "Location": "Portland,ME",
+  "Number": "4699",
+  "Scheduled": "2015-03-18T22:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:10:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Bangor",
+  "Number": "3726",
+  "Scheduled": "2015-03-18T22:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:10:00",
+  "Airline": "US Airways",
+  "Gate": "36",
+  "Location": "Burlington",
+  "Number": "4475",
+  "Scheduled": "2015-03-18T22:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:10:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Norfolk",
+  "Number": "3963",
+  "Scheduled": "2015-03-18T22:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:10:00",
+  "Airline": "US Airways",
+  "Gate": "31",
+  "Location": "Manchester",
+  "Number": "4602",
+  "Scheduled": "2015-03-18T22:10:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:15:00",
+  "Airline": "US Airways",
+  "Gate": "45",
+  "Location": "Ft Lauderdale",
+  "Number": "537",
+  "Scheduled": "2015-03-18T22:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:15:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Cincinnati",
+  "Number": "3942",
+  "Scheduled": "2015-03-18T22:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:15:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Rochester,NY",
+  "Number": "3910",
+  "Scheduled": "2015-03-18T22:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:15:00",
+  "Airline": "US Airways",
+  "Gate": "25",
+  "Location": "Detroit",
+  "Number": "4695",
+  "Scheduled": "2015-03-18T22:15:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:20:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Buffalo",
+  "Number": "3918",
+  "Scheduled": "2015-03-18T22:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:20:00",
+  "Airline": "US Airways",
+  "Gate": "35",
+  "Location": "Raleigh\/Durham",
+  "Number": "4561",
+  "Scheduled": "2015-03-18T22:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:20:00",
+  "Airline": "US Airways",
+  "Gate": "35X",
+  "Location": "Syracuse",
+  "Number": "3746",
+  "Scheduled": "2015-03-18T22:20:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:59:00",
+  "Airline": "US Airways",
+  "Gate": "23",
+  "Location": "Hartford",
+  "Number": "4650",
+  "Scheduled": "2015-03-18T22:59:00",
+  "Status": "On Time"
+}, {
+  "Actual": "2015-03-18T22:59:00",
+  "Airline": "US Airways",
+  "Gate": "39",
+  "Location": "Albany",
+  "Number": "4575",
+  "Scheduled": "2015-03-18T22:59:00",
+  "Status": "On Time"
+}]
