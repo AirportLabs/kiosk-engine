@@ -113,29 +113,14 @@ router.param('flight', function(req, res, next, flight) {
 // route with parameters
 router.get('/flightstats/:airline/:flight', function(req, res) {
 
-  // request('https://api.flightstats.com/flex/ratings/rest/v1/json/flight/' + req.flight + '/' + req.airline + '?appId=63121b9c&appKey=510908f052a4f6b24ab9515c6609225d', function(error, response, body) {
-  //     if (!error && response.statusCode == 200) {
-  //       var weather = JSON.parse(body);
-  //       var ratings = results.ratings[0];
-  //       // percent on-time
-  //       var ontimePercent = numeral(ratings.ontimePercent).format('0.0%');
-  //       $("#ontimePercent").text(ontimePercent);
-  //       // star rating
-  //       var allOntimeStars = numeral(ratings.allOntimeStars).format('0.0');
-  //       $("#allOntimeStars").rating('update', allOntimeStars);
-  //     }
-  //   })
-
-  // res.send(req.airline + ' ' + req.flight);
-
   async.waterfall([
     // get core flight status information from FlightStats.com
+    // mock data url: http://localhost:8080/mock/statusAPI
     function(callback) {
       var year = moment().year();
       var month = moment().month() + 1;
       var date = moment().date();
-      request('http://localhost:8080/mock/statusAPI', function(error, response, body) {
-        // request('https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/' + req.airline + '/' + req.flight + '/dep/' + year + '/' + month + '/' + date + '?appId=63121b9c&appKey=510908f052a4f6b24ab9515c6609225d&utc=false&airport=DCA', function(error, response, body) {
+      request('https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/' + req.airline + '/' + req.flight + '/dep/' + year + '/' + month + '/' + date + '?appId=63121b9c&appKey=510908f052a4f6b24ab9515c6609225d&utc=false&airport=DCA', function(error, response, body) {
         if (!error && response.statusCode == 200) {
 
           var compiledStats = {};
@@ -187,6 +172,8 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
           compiledStats.gateLocation = gateLocation;
 
           var destinationAirport = results.appendix.airports[1];
+
+          compiledStats.destinationIata = destinationAirport.iata;
 
           // The name of the destination airport (String).
           compiledStats.destinationAirport = destinationAirport.name;
@@ -284,17 +271,25 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
 
           callback(null, compiledStats);
 
+        } else {
+          callback(null, null);
         }
       })
     },
     // now that we have the assigned (from FlightStats.com) flightID, we switch to async.parallel
     function(compiledStats, callback) {
 
+      var flightId = compiledStats.flightId;
+      console.log('flightID = ' + flightId);
+
+      var destinationIata = compiledStats.destinationIata;
+      console.log('destinationIata = ' + destinationIata);
+
       async.parallel({
           // get local (airport) weather using FAA's API
           // ref: http://services.faa.gov/docs/services/airport/#airportStatus
           weather: function(callback) {
-            request('http://services.faa.gov/airport/status/' + req.airline + '?format=application/json', function(error, response, body) {
+            request('http://services.faa.gov/airport/status/' + destinationIata + '?format=application/json', function(error, response, body) {
               if (!error && response.statusCode == 200) {
                 var FAA = JSON.parse(body);
                 var weather = {};
@@ -306,12 +301,17 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
                 weather.delayType = FAA.status.type;
                 weather.delayAvgDelay = FAA.status.AvgDelay;
                 callback(null, weather);
+                console.log('****** weather ******');
+                console.log(weather);
+              } else {
+                callback(null, null);
               }
             })
           },
+          // get flight performance rating from FlightStats.com
+          // mock data url: http://localhost:8080/mock/ratingsAPI
           ratings: function(callback) {
-            request('http://localhost:8080/mock/ratingsAPI', function(error, response, body) {
-              // request('https://api.flightstats.com/flex/ratings/rest/v1/json/flight/' + req.airline + '/' + req.flight + '?appId=63121b9c&appKey=510908f052a4f6b24ab9515c6609225d', function(error, response, body) {
+            request('https://api.flightstats.com/flex/ratings/rest/v1/json/flight/' + req.airline + '/' + req.flight + '?appId=63121b9c&appKey=510908f052a4f6b24ab9515c6609225d', function(error, response, body) {
               if (!error && response.statusCode == 200) {
                 var flightStatsRatings = JSON.parse(body);
                 var ratings = {};
@@ -321,49 +321,52 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
                 // star rating
                 ratings.allOntimeStars = numeral(array.allOntimeStars).format('0.0');
                 callback(null, ratings);
+                console.log('****** ratings ******');
+                console.log(ratings);
+              } else {
+                callback(null, null);
               }
             })
           },
-          two: function(callback) {
-            setTimeout(function() {
-              callback(null, 2);
-            }, 100);
-          },
-          two: function(callback) {
-            setTimeout(function() {
-              callback(null, 2);
-            }, 100);
-          },
-          two: function(callback) {
-            setTimeout(function() {
-              callback(null, 2);
-            }, 100);
+          // get flight route from FlightStats.com
+          // mock data url: http://localhost:8080/mock/tracksAPI
+          route: function(callback) {
+            request('https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/track/' + flightId + '?appId=63121b9c&appKey=510908f052a4f6b24ab9515c6609225d&includeFlightPlan=true&maxPositions=2', function(error, response, body) {
+              if (!error && response.statusCode == 200) {
+                var routeResponse = JSON.parse(body);
+                console.log('****** routeResponse ******');
+                console.log(routeResponse);
+                var route = {};
+                route.waypoints = routeResponse.flightTrack.waypoints;
+                callback(null, route);
+                console.log('****** route ******');
+                console.log(route);
+              } else {
+                callback(null, null);
+              }
+            })
           },
           // add compiledStats stats to results JSON
           compiledStats: function(callback) {
             callback(null, compiledStats);
+            console.log('****** compiledStats ******');
+            console.log(compiledStats);
           }
         },
         function(err, results) {
-          callback(null, results)
+          console.log('*** DONE ***');
+          callback(null, results);
         });
 
     }
   ], function(err, result) {
+
+    console.log('*** DONE, NOW SERVING JSON FILE ***');
+
     // now return the compiled JSON file
     res.json(result);
+
   });
-
-
-
-  // ,
-  // function(arg1, callback) {
-  //   console.log(arg1);
-  //   callback(null, 'done');
-  // }
-
-
-
 
 });
 
