@@ -3,6 +3,7 @@
 var request = require('request');
 var async = require('async');
 var moment = require('moment');
+var numeral = require('numeral');
 var _ = require('lodash');
 var express = require('express');
 var app = express();
@@ -291,6 +292,7 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
 
       async.parallel({
           // get local (airport) weather using FAA's API
+          // ref: http://services.faa.gov/docs/services/airport/#airportStatus
           weather: function(callback) {
             request('http://services.faa.gov/airport/status/' + req.airline + '?format=application/json', function(error, response, body) {
               if (!error && response.statusCode == 200) {
@@ -302,10 +304,23 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
                 weather.wind = FAA.weather.wind;
                 weather.delayReason = FAA.status.reason;
                 weather.delayType = FAA.status.type;
-                weather.XXX = FAA.XXX;
-                weather.XXX = FAA.XXX;
-                weather.XXX = FAA.XXX;
+                weather.delayAvgDelay = FAA.status.AvgDelay;
                 callback(null, weather);
+              }
+            })
+          },
+          ratings: function(callback) {
+            request('http://localhost:8080/mock/ratingsAPI', function(error, response, body) {
+              // request('https://api.flightstats.com/flex/ratings/rest/v1/json/flight/' + req.airline + '/' + req.flight + '?appId=63121b9c&appKey=510908f052a4f6b24ab9515c6609225d', function(error, response, body) {
+              if (!error && response.statusCode == 200) {
+                var flightStatsRatings = JSON.parse(body);
+                var ratings = {};
+                var array = flightStatsRatings.ratings[0];
+                // percent on-time
+                ratings.ontimePercent = numeral(array.ontimePercent).format('0.0%');
+                // star rating
+                ratings.allOntimeStars = numeral(array.allOntimeStars).format('0.0');
+                callback(null, ratings);
               }
             })
           },
@@ -313,23 +328,41 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
             setTimeout(function() {
               callback(null, 2);
             }, 100);
+          },
+          two: function(callback) {
+            setTimeout(function() {
+              callback(null, 2);
+            }, 100);
+          },
+          two: function(callback) {
+            setTimeout(function() {
+              callback(null, 2);
+            }, 100);
+          },
+          // add compiledStats stats to results JSON
+          compiledStats: function(callback) {
+            callback(null, compiledStats);
           }
         },
         function(err, results) {
-          // results is now equals to: {one: 1, two: 2}
+          callback(null, results)
         });
 
-      // console.log(compiledStats);
-      // callback(null, 'three');
-
-    },
-    function(arg1, callback) {
-      // arg1 now equals 'three'
-      callback(null, 'done');
     }
   ], function(err, result) {
-    // result now equals 'done'
+    // now return the compiled JSON file
+    res.json(result);
   });
+
+
+
+  // ,
+  // function(arg1, callback) {
+  //   console.log(arg1);
+  //   callback(null, 'done');
+  // }
+
+
 
 
 });

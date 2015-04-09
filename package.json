@@ -11,6 +11,7 @@
     "express": "~4.9.x",
     "lodash": "^3.6.0",
     "moment": "^2.10.0",
+    "numeral": "^1.5.3",
     "request": "^2.55.0"
   },
   "engines": {
