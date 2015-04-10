@@ -71,7 +71,7 @@ router.use(function(req, res, next) {
 
 // home page route (http://localhost:8080)
 router.get('/', function(req, res) {
-  res.send('*** MWAA KIOSK ENGINE');
+  res.send('*** MWAA KIOSK ENGINE ***');
 });
 
 // serves a sample response for /flightstats/:airline/:flight
