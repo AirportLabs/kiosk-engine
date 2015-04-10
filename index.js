@@ -47,11 +47,6 @@ app.get('/mock/tracksAPI', function(req, res) {
 // ROUTES
 // ==============================================
 
-// sample route with a route the way we're used to seeing it
-app.get('/sample', function(req, res) {
-  res.send('this is a sample!');
-});
-
 app.get('/departures', function(req, res, next) {
   request('http://www.mwaa.com/net/data/departures_reagan.json', function(error, response, body) {
     if (!error && response.statusCode == 200) {
@@ -79,16 +74,14 @@ router.get('/', function(req, res) {
   res.send('*** MWAA KIOSK ENGINE');
 });
 
-// about page route (http://localhost:8080/about)
-router.get('/about', function(req, res) {
-  res.send('im the about page!');
+// serves a sample response for /flightstats/:airline/:flight
+router.get('/sample', function(req, res) {
+  res.sendFile(path.join(__dirname + '/mock/sampleResponse.json'));
 });
 
 // route middleware to validate :airline
 router.param('airline', function(req, res, next, airline) {
   // do validation on airline name here
-  // blah blah validation
-  // log something so we know its working
   console.log('doing airline validations on ' + airline);
 
   // once validation is done save the new item in the req
@@ -100,8 +93,6 @@ router.param('airline', function(req, res, next, airline) {
 // route middleware to validate :flight
 router.param('flight', function(req, res, next, flight) {
   // do validation on flight number here
-  // blah blah validation
-  // log something so we know its working
   console.log('doing flight validations on ' + flight);
 
   // once validation is done save the new item in the req
@@ -126,6 +117,10 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
           var compiledStats = {};
 
           var results = JSON.parse(body);
+
+          // console.log('*** compiledStats response ***');
+          // console.log(results);
+
           var airlines = results.appendix.airlines[0];
 
           // The name of the carrier (String).
@@ -301,8 +296,8 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
                 weather.delayType = FAA.status.type;
                 weather.delayAvgDelay = FAA.status.AvgDelay;
                 callback(null, weather);
-                console.log('****** weather ******');
-                console.log(weather);
+                // console.log('****** weather ******');
+                // console.log(weather);
               } else {
                 callback(null, null);
               }
@@ -321,8 +316,8 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
                 // star rating
                 ratings.allOntimeStars = numeral(array.allOntimeStars).format('0.0');
                 callback(null, ratings);
-                console.log('****** ratings ******');
-                console.log(ratings);
+                // console.log('****** ratings ******');
+                // console.log(ratings);
               } else {
                 callback(null, null);
               }
@@ -339,8 +334,8 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
                 var route = {};
                 route.waypoints = routeResponse.flightTrack.waypoints;
                 callback(null, route);
-                console.log('****** route ******');
-                console.log(route);
+                // console.log('****** route ******');
+                // console.log(route);
               } else {
                 callback(null, null);
               }
@@ -349,8 +344,8 @@ router.get('/flightstats/:airline/:flight', function(req, res) {
           // add compiledStats stats to results JSON
           compiledStats: function(callback) {
             callback(null, compiledStats);
-            console.log('****** compiledStats ******');
-            console.log(compiledStats);
+            // console.log('****** compiledStats ******');
+            // console.log(compiledStats);
           }
         },
         function(err, results) {
@@ -375,17 +370,6 @@ app.use('/', router);
 
 // login routes
 app.route('/login')
-
-// show the form (GET http://localhost:8080/login)
-.get(function(req, res) {
-  res.send('this is the login form');
-})
-
-// process the form (POST http://localhost:8080/login)
-.post(function(req, res) {
-  console.log('processing');
-  res.send('processing the login form!');
-});
 
 // START THE SERVER
 // ==============================================

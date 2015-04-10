@@ -1,15 +1,23 @@
-# mwaa-repeater
+# kiosk-engine
+
+## Routes
+
+`/departures` is a CORS-enabled repeater feed for MWAA's Reagan (DCA) departures web service  
+
+`/flightstats/:airline/:flight` returns a JSON array of flight-specific information  
+
+`/sample` serves a sample response for `/flightstats/:airline/:flight`  
 
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-```sh
+```
 $ npm install
 $ npm start
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+The app should now be running on [localhost:8080](http://localhost:8080/).
 
 ## Deploying to Heroku
 
