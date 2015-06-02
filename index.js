@@ -1,5 +1,3 @@
-// ==============================================
-
 var request = require('request');
 var async = require('async');
 var moment = require('moment');
